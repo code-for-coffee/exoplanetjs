@@ -18,3 +18,5 @@ class modelClass {
   }
   
 }
+
+export modelClass;
