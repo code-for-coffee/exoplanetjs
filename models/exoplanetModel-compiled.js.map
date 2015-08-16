@@ -1,0 +1,1 @@
+{"version":3,"sources":["exoplanetModel.js"],"names":[],"mappings":";;;;;;;;;;;;IAQM,cAAc,YAAd,cAAc;wBAAd,cAAc","file":"exoplanetModel-compiled.js","sourcesContent":["/**\r\n * exoplanet.js\r\n * Created on 8/16/2015.\r\n *\r\n * exoplanetModel Class\r\n * @param paramsObject\r\n * @return\r\n */\r\nclass exoplanetModel {\r\n\r\n    \r\n\r\n}"]}
