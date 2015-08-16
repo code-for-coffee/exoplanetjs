@@ -1,0 +1,19 @@
+{
+  "name": "exoplanet.js",
+  "version": "0.1.0",
+  "description": "Collection of Javascript files and functions for use with Exoplanet data parsing/rendering/conversion. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "exoplanet",
+    "nasa",
+    "kepler",
+    "extrasolar",
+    "planet",
+    "space"
+  ],
+  "author": "code-for-coffee",
+  "license": "MIT"
+}
