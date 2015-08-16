@@ -15,5 +15,8 @@
     "space"
   ],
   "author": "code-for-coffee",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.3.2"
+  }
 }
