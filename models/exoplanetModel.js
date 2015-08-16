@@ -13,12 +13,10 @@ class modelClass {
   let keyList = Object.keys(paramsObject);
     keyList.forEach(function(key) {
 
-      var usesReservedWord = false;
       var attributeName = key;
   
       reservedWords.forEach(function(key) {
-         if (attributeName == key) usesReservedWord = true;
-         throw new ReferenceError('Illegal use of reservedword in parameters:' + attributeName);
+         if (attributeName == key) throw new ReferenceError('Illegal use of reservedword in parameters:' + attributeName);
       });
 
   });
