@@ -1,4 +1,3 @@
-var app = app || {};
 
 app.models = app.models || {};
 
