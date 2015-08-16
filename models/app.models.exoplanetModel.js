@@ -8,7 +8,7 @@ app.models.exoplanetModel = function(paramsObject) {
   this.earthMass = paramsObject.earthMass || 0;
 
   if (this.jupiterMass == undefined && this.earthMass == undefined) {
-    throw new TypeError('No Earth of Jupiter Mass defined');
+    throw new TypeError('No Earth or Jupiter Mass defined');
   } else if (this.earthMass == undefined) {
     this.earthMass = app.conversions.convertJupiterMassToEarthMass(this.jupitjupiterMass);
   }
