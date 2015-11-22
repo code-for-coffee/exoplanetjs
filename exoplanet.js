@@ -5,5 +5,4 @@ exoplanetjs.viewModels = {};
 exoplanetjs.helpers = {};
 exoplanetjs.factories = {};
 
-
 import parseJupiterMassFromNASAPlanetData from './parseJupiterMassFromNASAPlanetData';

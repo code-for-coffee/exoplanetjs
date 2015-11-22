@@ -6,11 +6,15 @@
  * @param paramsObject
  * @return
  */
-class exoplanetModel {
+
+class exoplanetModel extends modelClass {
+
+  constructor(properties) {
+      this.properties = properties;
+    }
 
 
-
-}
+};
 
 export exoplanetModel;
 
