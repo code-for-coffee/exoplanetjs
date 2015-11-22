@@ -25,3 +25,13 @@ build/Release
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
+.idea/workspace.xml
+
+# jetBrains stuff
+idea/*
+
+# node stuff
+node_modules/*
+
+# c#/asp.net stuff
+application.config

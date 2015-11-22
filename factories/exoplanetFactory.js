@@ -1,8 +1,5 @@
-var app = app || {};
-app.factories = app.factories || {};
 
-
-app.factories.exoplanetFactory = function(jupiterMass) {
+function exoplanetFactory(jupiterMass) {
 
 	var exoplanetObj = {};
 
@@ -13,3 +10,5 @@ app.factories.exoplanetFactory = function(jupiterMass) {
 	return exoplanetObj;
 
 };
+
+export function exoplanetFactory;

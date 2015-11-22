@@ -1,8 +1,5 @@
-var app = app || {};
 
-app.models = app.models || {};
-
-app.models.planetTypesModel = {
+var planetTypesModel = {
 	Asteroidan: {
 		minMass: 0,
 		maxMass: 0.00001,
@@ -39,3 +36,5 @@ app.models.planetTypesModel = {
     desc: 'Neptunians can have dense atmospheres in the hot zone.'
 	}
 };
+
+export { planetTypesModel };
