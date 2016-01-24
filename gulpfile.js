@@ -15,6 +15,6 @@ gulp.task('default', function() {
   return browserify('./app/app.js')
         .transform("babelify", {presets: ["es2015", "react"]})
         .bundle()
-        .pipe(source('build.js'))
-        .pipe(gulp.dest('./build/'))
+        .pipe(source('exoplanetjs.js'))
+        .pipe(gulp.dest('./dist/'))
 });
