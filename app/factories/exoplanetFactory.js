@@ -11,4 +11,4 @@ function exoplanetFactory(jupiterMass) {
 
 };
 
-export function exoplanetFactory;
+module.exports = exoplanetFactory;

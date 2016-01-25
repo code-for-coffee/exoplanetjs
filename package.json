@@ -2,7 +2,7 @@
   "name": "exoplanet.js",
   "version": "0.2.1",
   "description": "Collection of Javascript files and functions for use with Exoplanet data parsing/rendering/conversion. ",
-  "main": "app.js",
+  "main": "./app/app.js",
   "scripts": {
     "start": "node ./app/app.js",
     "test": "node_modules/.bin/jasmine-node spec"
