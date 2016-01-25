@@ -1,4 +1,4 @@
-# exoplanet.js
+# exoplanetjs
 
 [![Build Status](https://travis-ci.org/code-for-coffee/exoplanet.js.svg?branch=master)](https://travis-ci.org/code-for-coffee/exoplanet.js)
 
