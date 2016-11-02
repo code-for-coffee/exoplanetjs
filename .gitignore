@@ -77,3 +77,5 @@ node_modules/*
 
 # c#/asp.net stuff
 application.config
+.idea/jsLibraryMappings.xml
+dist/exoplanet.js

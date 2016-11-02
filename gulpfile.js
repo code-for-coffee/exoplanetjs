@@ -1,20 +1,19 @@
-var gulp = require('gulp');
-var browserify = require('browserify');
-var babelify = require('babelify');
-var source = require('vinyl-source-stream');
-var watch = require('gulp-watch');
+const gulp = require('gulp');
+const browserify = require('browserify');
+const babelify = require('babelify');
+const source = require('vinyl-source-stream');
+const watch = require('gulp-watch');
 //var uglify = require('gulp-uglify');
 
-
-watch(['./app/*.js'], function() {
+watch(['./app/*.js'], () => {
   console.log("[exoplanetjs] App has been modified; re-compiling.");
   gulp.start('default');
 });
 
-gulp.task('default', function() {
+gulp.task('default', () => {
   return browserify('./app/app.js')
-        .transform("babelify", {presets: ["es2015", "react"]})
-        .bundle()
-        .pipe(source('exoplanet.js'))
-        .pipe(gulp.dest('./dist/'))
+    .transform("babelify", {presets: ["es2015"] })
+    .bundle()
+    .pipe(source('exoplanet.js'))
+    .pipe(gulp.dest('./dist/'))
 });

@@ -7,7 +7,7 @@ Collection of Javascript files and functions for use with Exoplanet data parsing
 ## Usage
 
 ```javascript
-var exoplanetjs = require('exoplanetjs');
+const exoplanetjs = require('exoplanetjs');
 exoplanetjs.getPlanetType(0.42);  // => 'Subterran'
 exoplanetjs.getPlanetType(500);   // => 'Jovian'
 exoplanetjs.PlanetTypesListModel['Superterran'] // =>
