@@ -1,22 +1,39 @@
 # exoplanetjs
 
-[![Build Status](https://travis-ci.org/code-for-coffee/exoplanet.js.svg?branch=master)](https://travis-ci.org/code-for-coffee/exoplanet.js)
+![Build Status](https://travis-ci.org/code-for-coffee/exoplanet.js.svg?branch=master)
 
 Collection of Javascript files and functions for use with Exoplanet data parsing/rendering/conversion.
+
+## Installation
+
+`npm install exopelanetjs --save`
 
 ## Usage
 
 ```javascript
 const exoplanetjs = require('exoplanetjs');
-exoplanetjs.getPlanetType(0.42);  // => 'Subterran'
-exoplanetjs.getPlanetType(500);   // => 'Jovian'
-exoplanetjs.PlanetTypesListModel['Superterran'] // =>
-/* Superterran: {
-	minMass: 2.00001,
-	maxMass: 10,
-  desc: 'Superterrans are able to hold dense atmospheres with liquid water within the habitable zone.'
-} */
+console.log(exoplanetjs.data);
 ```
+
+## Documentation
+
+#### exoplanetjs.helpers Namespace
+
+##### .getPlanetType(_jupiterMassAsFloat_)
+
+Returns an `{}`. the calculated PlanetType. References `exoplanet.data.PlanetTypeCollection` for the type to return.
+
+##### .toEarthMass(_jupiterMassAsFloat_)
+
+Returns a `float` that represents how many Earth masses a Jupiter mass would correspond to.
+
+#### exoplanetjs.data Namespace
+
+##### .PlanetTypesCollection
+
+Returns an `[]` of `{}` that represent official NASA planetary body types. Each sub `{}` contains the following attributes: `minMass: (Float)`, 
+                                                                                                                          		`maxMass: (Float)`, & 
+                                                                                                                          		`desc: (String)`
 
 ## Work in Progress
 

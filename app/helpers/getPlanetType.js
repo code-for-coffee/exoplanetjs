@@ -1,5 +1,5 @@
 'use strict' //es5
-var PlanetTypesListModel = require('../models/PlanetTypesListModel');
+var PlanetTypesListModel = require('../models/PlanetTypesCollection');
 
 function getPlanetType(mass) {
   var planetType;

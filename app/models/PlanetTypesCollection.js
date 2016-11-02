@@ -1,4 +1,4 @@
-var PlanetTypesListModel = {
+let PlanetTypesCollection = {
 	Asteroidan: {
 		minMass: 0,
 		maxMass: 0.00001,
@@ -35,4 +35,4 @@ var PlanetTypesListModel = {
     desc: 'Neptunians can have dense atmospheres in the hot zone.'
 	}
 };
-module.exports = PlanetTypesListModel;
+module.exports = PlanetTypesCollection;

@@ -1,4 +1,11 @@
 var exoplanetjs = exoplanetjs || {};
-exoplanetjs.PlanetTypesListModel = require('./models/PlanetTypesListModel.js');
+exoplanetjs.data = {};
+exoplanetjs.data.PlanetTypesCollection = require('./models/PlanetTypesCollection.js');
 exoplanetjs.getPlanetType = require('./helpers/getPlanetType');
+module.exports = exoplanetjs;
+
+
+const exoplanetjs = exoplanetjs || {};
+
+
 module.exports = exoplanetjs;
