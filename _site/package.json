@@ -30,8 +30,6 @@
   },
   "repository": "https://github.com/code-for-coffee/exoplanetJs",
   "dependencies": {
-    "csvjson": "^2.2.2",
-    "csvtojson": "^1.0.3",
     "jasmine-node": "^1.14.5"
   }
 }
