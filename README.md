@@ -1,12 +1,14 @@
 # exoplanetjs
 
+> *Here be dragons!* This is a work in process. Not everything works. 
+
 ![Build Status](https://travis-ci.org/code-for-coffee/exoplanet.js.svg?branch=master)
 
 Collection of Javascript files and functions for use with Exoplanet data parsing/rendering/conversion.
 
 ## Installation
 
-`npm install exopelanetjs --save`
+`npm install exoplanetjs --save`
 
 ## Usage
 
